@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3e5f5; /* Roxo claro */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabeçalho {
+    background-color: #6a1b9a; /* Roxo intenso */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho__menu-hamburguer {
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 5px 0;
+}
+
+.lista-menu__titulo {
+    font-weight: bold;
+    color: #ffd60a; /* Amarelo vibrante */
+    margin-bottom: 10px;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.lista-menu__link:hover {
+    color: #6a1b9a; /* Roxo intenso */
+}
+
+.banner {
+    background-image: url('img/supershock-bg.jpg'); /* Imagem de fundo do Super Shock */
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.banner__titulo {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner__texto {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.banner__pesquisa {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.carrossel__titulo {
+    font-size: 2em;
+    color: #6a1b9a; /* Roxo */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ffd60a; /* Amarelo vibrante */
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.descrição__titulo {
+    font-size: 1.5em;
+    color: #ffd60a; /* Amarelo */
+}
+
+.botões__ancora {
+    text-decoration: none;
+    color: #6a1b9a; /* Roxo */
+    font-weight: bold;
+}
+
+.tópicos {
+    margin: 40px 0;
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tópicos__link {
+    text-decoration: none;
+    color: #6a1b9a; /* Roxo */
+}
+
+.contato {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #6a1b9a; /* Roxo intenso */
+    color: #fff;
+}
+
+.rodapé {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
